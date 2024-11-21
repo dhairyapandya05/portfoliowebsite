@@ -12,7 +12,7 @@ const skills = [
     {
         image: cp,
         title: "Competitive Programming",
-        icons: [icons.Codeforces, icons.Codechef, icons.Hackerrank],
+        icons: [icons.Codeforces, icons.Codechef],
         description: [
             "Solved 1+ questions on Competitive Programming platforms",
             "Newbie (Max. Rating 0) on Codeforces",
@@ -33,7 +33,7 @@ const skills = [
     {
         image: datascience,
         title: "Frameworks and Technologies",
-        icons: [icons.Kaggle, icons.Python, icons.Numpy, icons.Pandas, icons.Matplotlib, icons.Seaborn, icons.Sklearn, icons.Tensorflow, icons.Keras],
+        icons: [icons.VisualStudio,icons.VisualStudioCode,icons.OpenCV,icons.ARCore,icons.Git,icons.Cpp,icons.GitHub,icons.Python, icons.Matplotlib],
         description: [
             "Skilled in data preprocessing and data analysis",
             "Able to create graphical representations to visualise the available data",
@@ -45,7 +45,7 @@ const skills = [
     {
         image: webdev,
         title: "Mobile Application Development",
-        icons: [icons.Html, icons.Css, icons.Tailwindcss, icons.Bootstrap, icons.Reactjs, icons.Flask, icons.Mysql, icons.Mongodb, icons.Apache, icons.Postman],
+        icons: [icons.Android,icons.JetpackCompose,icons.Androidstudio,icons.Firebase,icons.Unity,icons.Mysql,icons.Onesignal, icons.Postman],
         description: [
             "Skilled in frontend technologies like HTML, Tailwind CSS, Bootstrap, JavaScript and React.js",
             "Able to write REST APIs for backend using Flask",

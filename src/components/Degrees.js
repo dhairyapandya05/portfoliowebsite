@@ -3,23 +3,23 @@ import React from 'react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPencil } from '@fortawesome/free-solid-svg-icons'
-import nirma from '../static/images/nirma.png'
+import charusat from '../static/images/charusat.png'
 import kdarfs from '../static/images/kdarfs.png'
 
 const degrees = [
     {
-        image: nirma,
-        name: "Nirma University",
+        image: charusat,
+        name: "Charotar University of Science and Technology (CHARUSAT)",
         duration: "2020 - 2024",
         degree: "B.Tech in Computer Science",
-        score: "9.15 / 10.0",
+        score: "8.79 / 10.0",
         description: [
             "Course Work - Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Database Management, Computer Networks, Machine Learning, Deep Learning, Microservice Architecture",
             "Third Rank in B.Tech First Year",
             "Recipient of Dewang Mehta IT Awards for Second Rank in B.Tech CSE",
             "Served as Student Placement Coordinator for Placement Cell"
         ],
-        website: "https://www.nirmauni.ac.in/"
+        website: "https://www.charusat.ac.in/"
     },
     {
         image: kdarfs,

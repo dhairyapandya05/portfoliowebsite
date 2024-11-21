@@ -12,7 +12,7 @@ export default function Footer() {
             <Heart />
 
             <Text>
-                by Arunima Barik
+                by Dhairya Pandya
             </Text>
         </HStack>
     )

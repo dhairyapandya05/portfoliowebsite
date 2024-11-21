@@ -6,57 +6,31 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons'
 
 const projects = [
     {
-        name: "Hadoop Cricket Match Analysis",
-        skills: "Apache Hadoop",
+        name: "QR Code Scanner and Generater",
+        skills: "Java, Kotlin, Figma, Android Studio, Jetpack Compose",
         description: [
             "Analyzes cricket match data using Hadoop's MapReduce functions (Mapper, Reducer, Combiner and Partitioner)",
             "Extracts insights on Total Runs Team-Wise, Total Runs Player-Wise, Top 3 Batsmen and Top 3 Bowlers"
         ],
-        website: "https://github.com/arunimabarik75/Hadoop-Cricket-Match-Analysis"
+        website: "https://github.com/dhairyapandya05/QR-Code-Scanner-and-Generator"
     },
     {
-        name: "LL Parser",
-        skills: "Python, Streamlit",
+        name: "Zeep Service",
+        skills: "Java, Kotlin, Figma, Android Studio, One Signal, Quick Work, Google GCP, Firebase, Firestore",
         description: [
             "Web application that demonstrates LL Parsing technique used by compilers to perform top-down non-recursive parsing",
             "Deployed using Streamlit Community Cloud"
         ],
-        website: "https://github.com/arunimabarik75/LL-Parser"
+        website: "https://github.com/dhairyapandya05/Van-Service"
     },
     {
-        name: "Fibonacci Heap Simulator",
-        skills: "HTML, Bootstrap, JavaScript",
+        name: "Human Anatomy Visualiser",
+        skills: "Unity 3D, Google AR Core, Android, Blender",
         description: [
             "Allows users to insert, delete, extract minimum and merge in Fibonacci heaps",
             "Fibonacci Heap is a specialized data structure known for its efficient operations, find minimum and merge heaps"
         ],
-        website: "https://github.com/arunimabarik75/Fibonacci-Heap"
-    },
-    {
-        name: "CIFAR-10 Image Classification",
-        skills: "HTML, Bootstrap, Python",
-        description: [
-            "Explores Image Classification using techniques like HOG feature extraction and PCA dimensionality reduction",
-            "Utilizes the CIFAR - 10 dataset to train a Support Vector Machine (SVM) model with 71% accuracy"],
-        website: "https://github.com/arunimabarik75/CIFAR-10-Image-Classification"
-    },
-    {
-        name: "Banker's Algorithm",
-        skills: "HTML, CSS, JavaScript",
-        description: [
-            "Simulation of Banker's Algorithm - resource allocation and deadlock avoidance algorithm used in Operating Systems",
-            "Used to determine whether a system is in a safe state by checking if there is a safe sequence of resource allocation"
-        ],
-        website: "https://github.com/arunimabarik75/Bankers-Algorithm"
-    },
-    {
-        name: "FrequentlyContacted",
-        skills: "C Language",
-        description: [
-            "Simulation of Messaging Application using LRU cache concept",
-            "Uses Doubly Linked List and Binary Search Tree",
-            "Can be extended to WhatsApp Chat history, Recently used apps on smartphone and Notification Panel"],
-        website: "https://github.com/arunimabarik75/FrequentlyContacted"
+        website: "https://github.com/dhairyapandya05/HumanAnatomyUsingAR"
     }
 ]
 
@@ -108,7 +82,7 @@ export default function ProjectCards() {
             </Wrap>
 
             <Box pt={10} align="center">
-                <Link href='https://github.com/arunimabarik75?tab=repositories' isExternal>
+                <Link href='https://github.com/dhairyapandya05?tab=repositories' isExternal>
                     <Button p={[3, 3, 5, 6]} bg="blue.900" border="2px" borderRadius="lg" _hover={{ bg: "transparent", borderColor: "blue.900", textColor: "blue.900" }} fontFamily="workSans" fontSize={["lg", "lg", "xl"]} textColor="white">
                         <HStack>
                             <Text>See All Projects</Text>

@@ -2,27 +2,35 @@ import React from 'react'
 import { HStack, Center, Button, Image, Text, Link, Card, CardHeader, CardBody, CardFooter, Wrap, WrapItem, VStack } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import illinois from '../static/images/illinois.png'
-import imperial from '../static/images/imperial.png'
-import hackerrank from '../static/images/hackerrank.png'
+import googlearvr from '../static/images/googlearvr.png'
+import linkedinlearning from '../static/images/linkedinlearning.png'
+import udemy from '../static/images/udemy.png'
+
 
 const certificates = [
     {
         image: illinois,
         name: "Accelerated CS Fundamentals",
         author: "University of Illinois",
-        link: "https://www.coursera.org/account/accomplishments/specialization/CWURV2Z4KFQY"
+        link: "https://www.coursera.org/account/accomplishments/specialization/CN3OBEZSZDE3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
     },
     {
-        image: imperial,
-        name: "Mathematics for Machine Learning",
-        author: "Imperial College London",
-        link: "https://www.coursera.org/account/accomplishments/specialization/8SJC2KKRZHHN"
+        image: googlearvr,
+        name: "Introduction to Augmented Reality and ARCore",
+        author: "Google AR & VR",
+        link: "https://www.coursera.org/account/accomplishments/verify/PS3965BRPAPC"
     },
     {
-        image: hackerrank,
-        name: "Problem Solving (Basic)",
-        author: "HackerRank",
-        link: "https://www.hackerrank.com/certificates/c1d53e933a58"
+        image:udemy,
+        name: "Android Custom Views",
+        author:"Udemy",
+        link: "https://www.udemy.com/certificate/UC-cfa53453-104c-424d-b0f4-46620d3c375a/"
+    },
+    {
+        image:linkedinlearning,
+        name: "Building Chatbots Using Google DialogFlow",
+        author:"LinkedIn Learning",
+        link: "https://www.linkedin.com/learning/certificates/fb51a9752b1de242729b97258bcca9da38b259bd5f208bf23dc7f3e4db9720d6"
     }
 ]
 
