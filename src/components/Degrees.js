@@ -14,10 +14,10 @@ const degrees = [
         degree: "B.Tech in Computer Science",
         score: "8.79 / 10.0",
         description: [
-            "Course Work - Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Database Management, Computer Networks, Machine Learning, Deep Learning, Microservice Architecture",
-            "Third Rank in B.Tech First Year",
-            "Recipient of Dewang Mehta IT Awards for Second Rank in B.Tech CSE",
-            "Served as Student Placement Coordinator for Placement Cell"
+            "Course Work - Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Database Management, Computer Networks, Android Development, Microservice Architecture",
+            "First Rank in B.Tech Fourth Year",
+            "Experienced in working on real-world projects and publishing applications on the Google Play Store.",
+            "Ranked in top 5 Teams in CVMU Hackathons"
         ],
         website: "https://www.charusat.ac.in/"
     },
@@ -26,12 +26,12 @@ const degrees = [
         name: "Kokilaben Dhirubhai Ambani Vidyamandir",
         duration: "2019 - 2020",
         degree: "Class 12",
-        score: "97%",
+        score: "88.4%",
         description: [
             "Subjects - English, Physics, Chemistry, Mathematics, Informatics Practices",
-            "Secured 97% in CBSE Class 12 Board Exams",
-            "Overall School Rank 5 in Science Stream",
-            "Subject Topper in Chemistry with 99/100 marks"
+            "Secured 88.4% in CBSE Class 12 Board Exams",
+            "Achieved an overall batch rank of 7 in Chemistry with a score of 92/100.",
+            "Secured an impressive score of 91/100 in Information Practices.",
         ],
         website: "https://www.rfs.edu.in/Jamnagar"
     },
@@ -40,12 +40,12 @@ const degrees = [
         name: "Kokilaben Dhirubhai Ambani Vidyamandir",
         duration: "2017 - 2018",
         degree: "Class 10",
-        score: "98%",
+        score: "86.6%",
         description: [
             "Subjects - English, Hindi, Mathematics, Science, Social Studies",
-            "Secured 98% in CBSE Class 10 Board Exams",
-            "Overall School Rank 2",
-            "Subject Topper in English with 98/100 marks and Science with 100/100 marks"
+            "Secured 86.6% in CBSE Class 10 Board Exams",
+            "Achieved an impressive score of 94/100 in Mathematics",
+            "Achieved an impressive score of 92/100 in Science",
         ],
         website: "https://www.rfs.edu.in/Jamnagar"
     }

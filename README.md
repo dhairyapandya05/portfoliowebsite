@@ -133,10 +133,9 @@ npm run build
 
 This creates a `build` directory with all the code. Deploy only this folder.
 
-This website has been deployed [here](https://arunima-barik-portfolio.vercel.app/)
+This website has been deployed [here](https://dhairyapandya.vercel.app/)
 
 ## References
 
+[Arunima Barik's Portfolio Website Github Link](https://github.com/arunimabarik75/Portfolio-Website)
 [Ashutosh Hathidara's Portfolio Website](https://ashutoshhathidara.com/)
-
-> > > > > > > 2b8074b (init commit)

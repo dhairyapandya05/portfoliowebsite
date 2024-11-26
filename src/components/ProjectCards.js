@@ -3,34 +3,82 @@ import { Stack, HStack, Box, Button, Text, Link, List, ListItem, ListIcon, Card,
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPencil } from '@fortawesome/free-solid-svg-icons'
+import { Image } from '@chakra-ui/react';
+import zeepimg from '../static/images/zeepservicesBG.jpg'
+import humanAnatomy from '../static/images/HumanAnatomy.jpg'
+import QRCodeimg from '../static/images/QRCodeimg.png'
+import ratingView from '../static/images/ratingView.png'
+import carar from '../static/images/carar.png'
+import armeasure from '../static/images/armeasure.png'
 
 const projects = [
     {
         name: "QR Code Scanner and Generater",
         skills: "Java, Kotlin, Figma, Android Studio, Jetpack Compose",
         description: [
-            "Analyzes cricket match data using Hadoop's MapReduce functions (Mapper, Reducer, Combiner and Partitioner)",
-            "Extracts insights on Total Runs Team-Wise, Total Runs Player-Wise, Top 3 Batsmen and Top 3 Bowlers"
+            "QR Code Scanner and Generator allows users to scan and generate QR codes quickly and easily.",
+            "Key features include fast scanning, custom QR code creation, and a modern UI with Jetpack Compose for enhanced performance."
         ],
-        website: "https://github.com/dhairyapandya05/QR-Code-Scanner-and-Generator"
+        website: "https://github.com/dhairyapandya05/QR-Code-Scanner-and-Generator",
+        image:QRCodeimg
     },
     {
         name: "Zeep Service",
-        skills: "Java, Kotlin, Figma, Android Studio, One Signal, Quick Work, Google GCP, Firebase, Firestore",
+        skills: "Java, Kotlin, Figma, Android Studio, Quick Work, Google GCP, Firebase, Firestore",
         description: [
-            "Web application that demonstrates LL Parsing technique used by compilers to perform top-down non-recursive parsing",
-            "Deployed using Streamlit Community Cloud"
+            "Zeep Services is a travel app connecting students and drivers for efficient commutes, with features like flexible ride options, real-time updates, and complaint management.",
+            "Key features include ride scheduling, cancellations, notifications, data insights, and Google Assistant integration for hands-free access."
         ],
-        website: "https://github.com/dhairyapandya05/Van-Service"
+        website: "https://github.com/dhairyapandya05/Van-Service",
+        image:zeepimg
+
     },
     {
         name: "Human Anatomy Visualiser",
         skills: "Unity 3D, Google AR Core, Android, Blender",
         description: [
+            "Explore interactive 3D models of human organs, bones, and muscles, with the ability to rotate, scale, and move them for a hands-on anatomy learning experience.",
+            "Engage with quizzes, view different body systems, and enjoy realistic lighting and glow-in-the-dark models for an immersive AR environment."
+        ],
+        website: "https://github.com/dhairyapandya05/HumanAnatomyUsingAR",
+        image:humanAnatomy
+
+    }
+    ,
+    {
+        name: "Custom Rating View for Android",
+        skills: "Java, Kotlin, Android,Android Studio",
+        description: [
+            "Easily create and style star ratings with adjustable colors, sizes, and radii, either through XML or Kotlin code, to match your app's design.",
+            "Quick setup via JitPack with flexible customization options, making it simple to add interactive star ratings to your Android app."
+        ],
+        website: "https://github.com/dhairyapandya05/Star_Android_Library",
+        image:ratingView
+
+    }
+    ,
+    {
+        name: "AR - Car",
+        skills: "C#, Google AR Core, Unity 3D, Visual Studio",
+        description: [
+            "Explore and customize 3D car models in your real-world environment. Move, rotate, and scale the car to fit your desired location, providing an immersive experience for users.",
+            "Change the color of the car model in real-time and enjoy dynamic lighting effects that adjust based on your surroundings, making the car look as if it’s part of your environment."
+        ],
+        website: "https://github.com/dhairyapandya05/AR-car",
+        image:carar
+
+    }
+    ,
+    {
+        name: "AR - Measure",
+        skills: "C#, Google AR Core, Unity 3D, Visual Studio, Liner Algebra",
+        description: [
             "Allows users to insert, delete, extract minimum and merge in Fibonacci heaps",
             "Fibonacci Heap is a specialized data structure known for its efficient operations, find minimum and merge heaps"
         ],
-        website: "https://github.com/dhairyapandya05/HumanAnatomyUsingAR"
+        website: "https://github.com/dhairyapandya05/rulAR",
+        image:armeasure
+
     }
 ]
 
@@ -47,6 +95,17 @@ const ProjectComponent = ({ project }) => {
                 </CardHeader>
 
                 <CardBody>
+                <Box w="100%" maxW={["300px", "400px", "450px", "500px"]} mx="auto" mb={5} overflow="hidden" rounded="lg" shadow="md">
+                <Image
+                    src={project.image} // Placeholder URL; replace with actual image URL
+                    alt={`${project.name} image`}
+                    w="100%" // Make the image responsive
+                    h="auto"
+                    maxH={["300px", "400px", "450px", "500px"]} // Keep image height constrained
+                    objectFit="cover" // Ensures the image scales and fills the area
+                    objectPosition="center" // Centers the visible part of the image
+                />
+                </Box>
                     <List fontFamily="workSans" fontSize={["lg", "lg", "xl", "2xl"]} color="blue.900" spacing={4}>
                         {project.description.map((project) => (
                             <ListItem key={project}>

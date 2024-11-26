@@ -4,7 +4,7 @@ import TopSection from '../components/TopSection'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
-import contactme from '../static/images/contactme.png'
+import contactme from '../static/images/mycontactme-removebg-preview.png'
 import resume from '../static/documents/dhairypandyaresume.pdf'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 

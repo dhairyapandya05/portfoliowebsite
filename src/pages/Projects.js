@@ -4,7 +4,7 @@ import TopSection from '../components/TopSection'
 import ProjectCards from '../components/ProjectCards'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
-import projects from '../static/images/projects.png'
+import projects from '../static/images/myprojects-removebg-preview.png'
 
 const About = () => {
     return (

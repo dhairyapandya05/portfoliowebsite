@@ -4,7 +4,7 @@ import TopSection from '../components/TopSection'
 import Certificates from '../components/Certificates'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
-import certification from '../static/images/certification.png'
+import certification from '../static/images/mycertificate-removebg-preview.png'
 
 const About = () => {
     return (

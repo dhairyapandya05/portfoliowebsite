@@ -9,25 +9,25 @@ import udemy from '../static/images/udemy.png'
 
 const certificates = [
     {
-        image: illinois,
+        icon: illinois,
         name: "Accelerated CS Fundamentals",
         author: "University of Illinois",
         link: "https://www.coursera.org/account/accomplishments/specialization/CN3OBEZSZDE3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
     },
     {
-        image: googlearvr,
+        icon: googlearvr,
         name: "Introduction to Augmented Reality and ARCore",
         author: "Google AR & VR",
         link: "https://www.coursera.org/account/accomplishments/verify/PS3965BRPAPC"
     },
     {
-        image:udemy,
+        icon:udemy,
         name: "Android Custom Views",
         author:"Udemy",
         link: "https://www.udemy.com/certificate/UC-cfa53453-104c-424d-b0f4-46620d3c375a/"
     },
     {
-        image:linkedinlearning,
+        icon:linkedinlearning,
         name: "Building Chatbots Using Google DialogFlow",
         author:"LinkedIn Learning",
         link: "https://www.linkedin.com/learning/certificates/fb51a9752b1de242729b97258bcca9da38b259bd5f208bf23dc7f3e4db9720d6"
@@ -41,7 +41,7 @@ const CertificateComponent = ({ certificate }) => {
                 <CardHeader align="center">
                     <VStack spacing={8}>
                         <Center w="full" h="100px" justify="center">
-                            <Image src={certificate.image} alt={certificate.name} w={["60%", "60%", "90%", "80%"]} h="auto" />
+                            <Image src={certificate.icon} alt={certificate.icon} w={["60%", "60%", "90%", "80%"]} h="auto" />
                         </Center>
 
                         <Center minH={['0px', '0px', '80px', '100px']} direction='column' spacing={2} bg="blue.900" textColor="white" w="100%" px={5} py={2} rounded="lg">

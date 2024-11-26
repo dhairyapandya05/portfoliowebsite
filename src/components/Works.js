@@ -5,59 +5,65 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons'
 import magma from '../static/images/magma.png'
 import deshaw from '../static/images/deshaw.png'
 import google from '../static/images/google.png'
+import motorola from '../static/images/motorolalogo.png'
+import stpl from '../static/images/stpl.png'
+import oneoneseventechnologies from '../static/images/oneoneseventechnologies.png'
+import urbanoinfotech from '../static/images/urbanoinfotech.png'
+
 
 const works = {
     "Internship": [
         {
-            image: magma,
-            name: "Magma",
-            duration: "Jan 2024 - MAy 2024",
-            position: "Full Stack Developer",
-            location: "Ahmedabad, Gujarat",
+            image: stpl,
+            name: "STPL",
+            duration: "Dec 2024 - July 2025",
+            position: "R & D Software Developer",
+            location: "Surat, Gujarat",
             description: [
-                "Developing web applications from scratch and deploying them on company server",
-                "Maintaining network infrastructure of the organisation",
-                "Developed MagPort (magport.magmagroup.in), a SaaS container booking and logistics management software",
-                "Developed Magma Factory (factory.magmagroup.in), a platform for procuring raw materials and uploading dead stock for liquidation",
-                "Revamped Magma Green (green.magmagroup.in), an ESG data management software to record energy and water consumption and carbon footprint",
-                "Developed Admin Dashboard (admin.magmagroup.in) for internal use by Operations team of Magma"
+                "Designed and implemented an automated system using OpenCV and Python to generate precise 3D models of diamonds from 2D images, enhancing gemological analysis and design accuracy.",
+                "Developed algorithms to detect corners and feature points on diamonds, ensuring accurate identification of critical geometric properties.",
+                "Employed Delaunay Triangulation to create connected polygon meshes and Hough Line Transformation for detecting and analyzing lines and intersections within images.",
+                "Built a custom edge detection algorithm using Bresenham's Line Algorithm to identify critical edges in diamond images with high precision.",
+                "Revolutionized diamond modeling workflows by integrating advanced computational geometry, reducing manual intervention, and improving accuracy in gemological design and analysis."
             ]
         },
         {
-            image: deshaw,
-            name: "D.E. Shaw & Co.",
-            duration: "June 2023 - Aug 2023",
-            position: "Technology Developer Intern",
-            location: "Hyderabad, Telangana",
+            image: oneoneseventechnologies,
+            name: "One 17 Technologies",
+            duration: "Dec 2023 - July 2024",
+            position: "Mobile Application Software Developer",
+            location: "Meerut, Uttar Pradesh",
             description: [
-                "Worked in Data Technologies related team (Oasis) in Front Office",
-                "Accelerated short SQL queries using Apache Ignite",
-                "Current software Apache Spark takes 1-2 minutes to execute a short query",
-                "Developed a caching layer above the existing software and reduced query execution time to few seconds"
+                "Implemented Firebase Crashlytics to identify and resolve critical bugs swiftly, improving app stability and user experience across Android and iOS platforms.",
+                "Configured Firebase Dynamic Links to serve platform-specific experiences, significantly streamlining navigation and enhancing user engagement for both Android and iOS customers.",
+                "Extensively utilized Firebase Realtime Database for seamless, low-latency data synchronization, enabling a responsive and interactive user experience.",
+                "Optimized app reliability through crash monitoring and user engagement via dynamic links, leading to increased customer satisfaction and retention rates.",
+                "Successfully tailored Firebase features to meet platform-specific requirements, improving operational efficiency and addressing the unique needs of Android and iOS users."
             ]
         },
         {
-            image: google,
-            name: "Google",
-            duration: "May 2022 - Aug 2022",
-            position: "Software STEP Intern",
+            image: motorola,
+            name: "Motorola Solutions",
+            duration: "Jun 2022 - Jan 2023",
+            position: "Web Developer",
             location: "Bangalore, Karnataka",
             description: [
-                "Worked in Google CloudSearch team which is a Search Engine for client organisations",
-                "Designed ingestion flow for FAQs and answers",
-                "Used concepts of data sources and search applications",
-                "Made Design Docs and presented solution in team meetings"
+                "Gained hands-on experience with cutting-edge frameworks, focusing on developing secure, scalable, and responsive web applications.",
+                " Implemented JWT-based authentication in Angular to safeguard user data and enhance web application security.",
+                "Acquired a strong understanding of MVC architecture, enabling structured application development and streamlined maintenance.",
+                "Received professional training in modern web development tools, empowering the creation of dynamic and interactive user experiences.",
+                "Strengthened web application reliability by incorporating advanced authentication and security measures, ensuring data protection and user trust."
             ]
         }
     ]
     ,
     "Full Time": [
         {
-            image: google,
-            name: "Google",
-            duration: "Upcoming",
-            position: "Software Engineer",
-            location: "Bangalore, Karnataka",
+            image: urbanoinfotech,
+            name: "Urbano Infotech",
+            duration: "Present",
+            position: "SDE 1",
+            location: "Ahmedabad, Gujarat",
             description: [
             ]
         }

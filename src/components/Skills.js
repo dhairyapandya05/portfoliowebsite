@@ -1,24 +1,24 @@
-import { Stack, HStack, VStack, Box, Text, Image, Center, Wrap, List, ListItem, ListIcon } from '@chakra-ui/react'
+import { Stack, VStack, Box, Text, Image, Center, Wrap, List, ListItem, ListIcon } from '@chakra-ui/react'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPencil } from '@fortawesome/free-solid-svg-icons'
 import * as icons from './Icons'
-import cp from '../static/images/cp.png'
-import dsa from '../static/images/dsa.png'
-import datascience from '../static/images/datascience.png'
-import webdev from '../static/images/webdev.png'
+import cp from '../static/images/competitiveprogramming.png'
+import dsa from '../static/images/mydsa.png'
+import datascience from '../static/images/frameworksandtechnologies.png'
+import webdev from '../static/images/mobileapplicationdev.png'
 
 const skills = [
-    {
-        image: cp,
-        title: "Competitive Programming",
-        icons: [icons.Codeforces, icons.Codechef],
-        description: [
-            "Solved 1+ questions on Competitive Programming platforms",
-            "Newbie (Max. Rating 0) on Codeforces",
-            "0 Star (Max. Rating 0) on CodeChef"
-        ]
-    },
+    // {
+    //     image: cp,
+    //     title: "Competitive Programming",
+    //     icons: [icons.Codeforces, icons.Codechef],
+    //     description: [
+    //         "Solved 1+ questions on Competitive Programming platforms",
+    //         "Newbie (Max. Rating 0) on Codeforces",
+    //         "0 Star (Max. Rating 0) on CodeChef"
+    //     ]
+    // },
     {
         image: dsa,
         title: "Data Structures and Algorithms",
@@ -33,13 +33,13 @@ const skills = [
     {
         image: datascience,
         title: "Frameworks and Technologies",
-        icons: [icons.VisualStudio,icons.VisualStudioCode,icons.OpenCV,icons.ARCore,icons.Git,icons.Cpp,icons.GitHub,icons.Python, icons.Matplotlib],
+        icons: [icons.VisualStudio,icons.VisualStudioCode,icons.OpenCV,icons.ARCore,icons.Git,icons.Cpp,icons.GitHub,icons.Python, icons.Matplotlib,icons.GoogleGCP,icons.Nodejs],
         description: [
-            "Skilled in data preprocessing and data analysis",
-            "Able to create graphical representations to visualise the available data",
-            "Build and train Machine Learning models for different use cases",
-            "Basic knowledge in Deep Learning (Neural Networks, Image Classification and Segmentation, LSTM, Encoders and Decoders etc.)",
-            "Prefer using Python for implementation"
+            "Skilled in Image Processing Algorithms.",
+            "Experienced in developing Augmented Reality Applications for iOS and Android.",
+            "Worked with Google Firebase Cloud Functions and Backend Projects.",
+            "Strong knowledge of OpenCV Library and its algorithms.",
+            "Proficient in C++, Java, and Python for implementation."
         ]
     },
     {
@@ -47,10 +47,10 @@ const skills = [
         title: "Mobile Application Development",
         icons: [icons.Android,icons.JetpackCompose,icons.Androidstudio,icons.Firebase,icons.Unity,icons.Mysql,icons.Onesignal, icons.Postman],
         description: [
-            "Skilled in frontend technologies like HTML, Tailwind CSS, Bootstrap, JavaScript and React.js",
-            "Able to write REST APIs for backend using Flask",
-            "Knowledgeable about databases such as MySQL and MongoDB",
-            "Experienced in using Apache HTTP Server for deployment"
+            "Skilled in frontend mobile technologies: Java, Kotlin, C#, and Jetpack Compose.",
+            "Experienced in implementing Scheduled Notification Systems.",
+            "Knowledgeable in databases like SQLite, Firestore, and Firebase Realtime Database.",
+            "Experienced with REST APIs and prefer using Kotlin for programming."
         ]
     }
 ]
@@ -58,7 +58,7 @@ const skills = [
 const SkillComponent = ({ skill }) => {
     return (
         <Box w="100%" px={8} py={5}>
-            <Stack shadow="xl" rounded="xl" p={4} direction={['column', 'column', 'row']} spacing={5} w="100%">
+            <Stack shadow="xl" rounded="xl" p={4} direction={['column', 'column', 'row']} spacing={5} w="100%" bg='white'>
                 <Center w={["100%", "100%", "40%", "30%"]}>
                     <Image src={skill.image} alt={skill.name} w={["60%", "60%", "90%", "80%"]} h="auto" />
                 </Center>

@@ -3,10 +3,10 @@ import { Box, Text } from '@chakra-ui/react'
 import TopSection from '../components/TopSection'
 import CodingProfiles from '../components/CodingProfiles'
 import Degrees from '../components/Degrees'
-import Clubs from '../components/Clubs'
+// import Clubs from '../components/Clubs'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
-import education from '../static/images/education.png'
+import education from '../static/images/file.png'
 
 const About = () => {
     return (
@@ -30,7 +30,7 @@ export default function Education() {
         <Box as="body" bg="blue.50" pt={4}>
             <TopSection content={<About />} image={education} />
             <Degrees />
-            <Clubs />
+            {/* <Clubs /> */}
             <Footer />
             <ScrollToTop />
         </Box>

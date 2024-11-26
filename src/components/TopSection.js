@@ -1,4 +1,4 @@
-import { Stack, VStack, Image, Center, Spacer } from '@chakra-ui/react'
+import { Stack, VStack, Image, Center } from '@chakra-ui/react'
 import React from 'react'
 
 export default function TopSection({content, image}) {

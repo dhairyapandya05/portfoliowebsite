@@ -3,7 +3,7 @@ import { Box, Text, Link, Button, Stack, VStack, HStack, FormControl,
 import React, { useState } from 'react';
 import { EmailIcon } from '@chakra-ui/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn, faTwitter, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import emailjs from '@emailjs/browser';
 
