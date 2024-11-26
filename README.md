@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-# portfoliowebsite
-
-=======
-
 # Portfolio Website
 
 This repository contains my personal portfolio website.
@@ -133,9 +127,11 @@ npm run build
 
 This creates a `build` directory with all the code. Deploy only this folder.
 
-This website has been deployed [here](https://dhairyapandya.vercel.app/)
+This website has been deployed <a href="https://dhairyapandya.vercel.app/" target="_blank">here</a>.
+
+
 
 ## References
 
 [Arunima Barik's Portfolio Website Github Link](https://github.com/arunimabarik75/Portfolio-Website)
-[Ashutosh Hathidara's Portfolio Website](https://ashutoshhathidara.com/)
+
